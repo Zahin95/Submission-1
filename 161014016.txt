@@ -1,0 +1,152 @@
+   Use Case:
+              +-----------------------+
+              |   Flat Meal Manager   |
+              +-----------------------+
+                        |
+                        | includes
+                        v
++------------------------------------------------+
+|                 User Registration               |
++------------------------------------------------+
+| - Register and create individual accounts      |
+| - Authenticate users                           |
++------------------------------------------------+
+
+                        |
+                        | includes
+                        v
++------------------------------------------------+
+|              Flat Creation & Management         |
++------------------------------------------------+
+| - Create and manage flats (groups)             |
+| - Invite users to join a flat                  |
+| - Manage flat settings                         |
++------------------------------------------------+
+
+                        |
+                        | includes
+                        v
++------------------------------------------------+
+|            Meal Scheduling & Planning           |
++------------------------------------------------+
+| - Schedule meals with date/time                 |
+| - Allow users to RSVP for meals                 |
++------------------------------------------------+
+
+                        |
+                        | includes
+                        v
++------------------------------------------------+
+|                Expense Tracking                 |
++------------------------------------------------+
+| - Add shared expenses                           |
+| - Tag expenses with categories                 |
+| - Track individual expenses                     |
++------------------------------------------------+
+
+                        |
+                        | includes
+                        v
++------------------------------------------------+
+|                Splitting Costs                  |
++------------------------------------------------+
+| - Calculate and split costs among flat members  |
+| - Different methods for splitting costs        |
++------------------------------------------------+
+
+                        |
+                        | includes
+                        v
++------------------------------------------------+
+|                 Payment Integration             |
++------------------------------------------------+
+| - Integrate payment gateways                    |
+| - Facilitate money transfers among members      |
++------------------------------------------------+
+
+                        |
+                        | includes
+                        v
++------------------------------------------------+
+|             Notifications & Reminders           |
++------------------------------------------------+
+| - Send reminders for meals and payments         |
+| - Notify users about expense updates            |
++------------------------------------------------+
+
+                        |
+                        | includes
+                        v
++------------------------------------------------+
+|            Expense Analysis & Reports           |
++------------------------------------------------+
+| - Provide reports on individual expenses       |
+| - Show analytics and graphs                     |
++------------------------------------------------+
+
+                        |
+                        | includes
+                        v
++------------------------------------------------+
+|              Communication Features             |
++------------------------------------------------+
+| - In-app chat/messaging for users to communicate|
+| - Discuss meals, expenses, etc.                 |
++------------------------------------------------+
+
+
+Software Requirements:
+User Registration and Authentication:
+
+Allow users (students) to register and create individual accounts.
+Implement secure authentication mechanisms like username/password or social media login.
+User Roles and Permissions:
+
+Assign different roles to users, such as admins (flat managers) and regular members.
+Admins should have additional privileges to manage expenses and settings.
+Flat Creation and Management:
+
+Enable the creation of a flat (group) and allow users to join/leave the flat.
+Provide an admin dashboard to manage flat settings and member invitations.
+Meal Scheduling and Planning:
+
+Allow users to schedule meals and set the date/time for each meal.
+Enable users to RSVP for a meal to get an estimate of attendees.
+Expense Tracking:
+
+Provide a mechanism to track shared expenses related to groceries and meals.
+Allow users to add expenses and tag them with relevant categories (e.g., groceries, utilities, dining out).
+Splitting Costs:
+
+Implement algorithms to calculate and split costs evenly among flat members.
+Consider different splitting methods, like equal division or proportionate to consumption.
+Payment Integration:
+
+Integrate payment gateways to facilitate money transfers among flat members.
+Allow users to settle their debts and record payment transactions.
+Notifications and Reminders:
+
+Send notifications and reminders for upcoming meals, payments, and expense updates.
+Expense Analysis and Reports:
+
+Provide reports and analytics on individual expenses and overall flat spending.
+Show graphs or charts to help users visualize the data.
+Communication Features:
+
+Include an in-app chat or messaging system to allow members to communicate about meals, expenses, and other matters.
+Mobile-Friendly Interface:
+
+Ensure the software is accessible on both desktop and mobile devices.
+Data Security and Privacy:
+
+Implement strong security measures to protect user data and financial information.
+Data Backup and Recovery:
+
+Regularly backup data to prevent loss in case of any unforeseen issues.
+User-Friendly Interface:
+
+Design an intuitive and easy-to-use interface to cater to users with varying technical expertise.
+Support and Help Documentation:
+
+Include a help section or documentation to guide users on using the software effectively.
+
